@@ -11649,6 +11649,11 @@ header.masthead {
 	background-size: cover;
 }
 
+header.masthead-services {
+	background-image: url("../assets/img/services/services.jpg");
+	background-size: cover cover;
+}
+
 header.masthead .masthead-subheading {
 	font-size: 1.5rem;
 	font-style: italic;
