@@ -40,3 +40,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
 		});
 	});
 });
+
+
+const currentLocation = location.pathname;
+document.querySelectorAll('.nav-item a.nav-link').forEach(link => {
+    if (link.getAttribute('href') === currentLocation) {
+        link.parentElement.classList.add('active');
+    }
+});
