@@ -79,6 +79,26 @@
 	box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+	width: 8px !important;
+	height: 2px !important;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #e0e0e0 !important;
+	  border-radius: 10px !important;
+  
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background: #0dcaf0 !important;
+	border-radius: 10px !important;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background: #0dcaf0 !important;
+  }
+
 @media (prefers-reduced-motion: no-preference) {
 	:root {
 		scroll-behavior: smooth;
@@ -11636,6 +11656,7 @@ p {
 		margin-right: 0;
 	}
 }
+
 header.masthead {
 	padding-top: 10.5rem;
 	padding-bottom: 6rem;
@@ -11649,9 +11670,10 @@ header.masthead {
 	background-size: cover;
 }
 
+
 header.masthead-services {
-	background-image: url("../assets/img/services/services.jpg");
-	background-size: cover cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/services/services.jpg");
+    background-size:cover;
 }
 
 header.masthead .masthead-subheading {

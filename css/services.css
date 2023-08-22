@@ -52,3 +52,18 @@ footer {
 #service3{
     margin-bottom: 10%;
 }
+
+@media (max-width: 767px) {
+    .service-details {
+        flex-direction: column;
+    }
+
+    .service-content {
+        width: 100%;
+    }
+
+    .service-image,
+    .service-description {
+        width: 100%;
+    }
+}
