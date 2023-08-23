@@ -48,3 +48,22 @@ document.querySelectorAll('.nav-item a.nav-link').forEach(link => {
         link.parentElement.classList.add('active');
     }
 });
+
+
+const navLinks = document.querySelectorAll('.nav-link');
+
+navLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        navLinks.forEach(navLink => navLink.classList.remove('active'));
+        
+        this.classList.add('active');
+        
+        // Get the URL from the clicked link's 'href' attribute
+        const linkUrl = this.getAttribute('href');
+        
+        // Navigate to the linked page
+        window.location.href = linkUrl;
+    });
+});

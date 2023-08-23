@@ -4359,14 +4359,19 @@ fieldset:disabled .btn {
 	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
 		border-color 0.15s ease-in-out;
 }
+
+
 @media (prefers-reduced-motion: reduce) {
 	.nav-link {
 		transition: none;
 	}
 }
+.nav-link.active{
+    border-bottom: 2px solid red; /* You can adjust the color and thickness */
+}
 .nav-link:hover,
 .nav-link:focus {
-	color: #cca000;
+	color: #cca000 !important;
 }
 .nav-link.disabled {
 	color: #6c757d;
