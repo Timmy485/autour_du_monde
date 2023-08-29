@@ -1,4 +1,6 @@
-
+.btn{
+    margin-top: 50px;
+}
 
 .service-list {
     display: flex;
@@ -52,6 +54,8 @@ footer {
 #service3{
     margin-bottom: 10%;
 }
+
+
 
 @media (max-width: 1000px) {
     .service-details {
