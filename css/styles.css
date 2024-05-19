@@ -11677,7 +11677,7 @@ header.masthead {
 
 
 header.masthead-services {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/services/services.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/services/com_service.jpg");
     background-size:cover;
 }
 
