@@ -10,32 +10,37 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+  <meta name="description" content="Autour du Monde Consult - Your trusted partner for immigration to France. Expert legal, travel, and administrative support." />
+  <meta name="author" content="Autour du Monde Consult" />
   <title>Autour Du Monde Consult</title>
   <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="assets/logo.jpg" />
+  <link rel="icon" type="image/x-icon" href="assets/new_logo.jpg" />
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
   <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
-  <!-- Navigation-->
-  <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="#page-top"><img src="assets/img/logos/logo.jpg" alt="Logo" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="mainNav" aria-label="Primary Navigation">
+    <div class="container d-flex align-items-center" style="padding-left:2rem;padding-right:2rem;">
+      <!-- Left: Logo -->
+      <a class="navbar-brand me-3" href="#page-top">
+        <img src="assets/new_logo.jpg" alt="Autour du Monde Consult logo" style="height:40px;" />
+      </a>
+
+      <!-- Toggler -->
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars ms-1"></i>
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+
+      <!-- Center/Right: Nav links (collapse on mobile) -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase mx-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
@@ -45,124 +50,222 @@
           <li class="nav-item">
             <a class="nav-link" href="about_us.html">About Us</a>
           </li>
-          <!-- <li class="nav-item">
-							<a class="nav-link" href="#team">Jobs</a>
-						</li> -->
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
+          <!-- Mobile-only CTA inside collapsed menu -->
+          <li class="nav-item d-sm-none mt-2">
+            <a class="btn btn-gold-cta btn-xl w-100" href="#contact">Book Free Consultation</a>
+          </li>
         </ul>
+      </div>
+
+      <!-- Far right: Desktop CTA -->
+      <div class="d-none d-sm-block ms-3">
+        <a class="btn btn-gold-cta nav-cta" href="#contact">Book Free Consultation</a>
       </div>
     </div>
   </nav>
-  <!-- Masthead-->
-  <header class="masthead">
-    <div class="container">
-      <!-- <div class="masthead-subheading">
-					Regular and One off Domestic Cleaning
-				</div> -->
-      <div class="masthead-heading text-uppercase">
-        AUTOUR DU MONDE CONSULT
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="container">
+        <h1 class="hero-heading">Your Trusted Partner for Immigration to France and Beyond.</h1>
+        <p class="hero-subtext">We simplify your relocation through expert legal, travel, and administrative support.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-gold btn-xl" aria-label="Book a free consultation with our immigration experts">
+            Book a Free Consultation
+          </a>
+          <a href="#services" class="btn btn-outline-navy btn-xl" aria-label="Learn more about our immigration services">
+            Learn More
+          </a>
+        </div>
       </div>
-      <div class="masthead-paragraph">
-        <p>
-          EMPOWERING YOUR GLOBAL ASPIRATIONS <br /><br />
-          <!-- IMMIGRATION SERVICES FOR GHANAIANS AND NIGERIANS INTO FRANCE -->
-        </p>
-      </div>
-      <h4></h4>
-      <a class="btn btn-primary btn-xl text-uppercase" href="#contact">Contact Us Now</a>
     </div>
   </header>
-  <!-- Services-->
-  <section class="page-section" id="services">
+  <!-- Services Overview Section -->
+  <section class="services-section page-section" id="services">
     <div class="container">
-      <div class="text-center">
-        <h2 class="section-heading text-uppercase">
-          WELCOME TO AUTOUR DU MONDE CONSULT
-        </h2>
-        <h3 class="section-subheading1">Professional Immigration Services</h3>
-        <h6 class="section-subheading text-muted">
-          At Autour Du Monde Consult, we pride ourselves on tailoring
-          immigration solutions to meet your specific needs. Our expert team
-          ensures the highest standards, providing expert guidance and support for navigating the complexities of
-          immigration.
-          Our professional services streamline the process, ensuring accuracy and compliance while
-          maximizing your chances of successful immigration.
-        </h6>
+      <!-- Section Header -->
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-subtitle">We offer comprehensive immigration solutions tailored to your needs</p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services-grid">
+        <!-- Service Card 1: Legal Assistance -->
+        <div class="service-card">
+          <div class="card-image-wrapper">
+            <img src="assets/img/landing_page/rsz_legal1.jpg" alt="Legal Assistance services" class="card-image" />
+            <div class="card-overlay">
+              <span class="card-icon">⚖️</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Legal Assistance</h3>
+            <p class="card-description">
+              Empowering migration dreams with top-tier legal assistance. Our expert team provides comprehensive guidance for navigating immigration laws to France with confidence and expertise.
+            </p>
+            <a href="services.html" class="btn-view-details">View Details</a>
+          </div>
+        </div>
+
+        <!-- Service Card 2: Travel Consultancy -->
+        <div class="service-card">
+          <div class="card-image-wrapper">
+            <img src="assets/img/landing_page/rsz_consult.jpg" alt="Travel Consultancy services" class="card-image" />
+            <div class="card-overlay">
+              <span class="card-icon">✈️</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Travel Consultancy</h3>
+            <p class="card-description">
+              Guiding your immigration journey with expert consultancy. We provide tailored advice to empower your move to France with confidence and strategic planning.
+            </p>
+            <a href="services.html" class="btn-view-details">View Details</a>
+          </div>
+        </div>
+
+        <!-- Service Card 3: Administrative Services -->
+        <div class="service-card">
+          <div class="card-image-wrapper">
+            <img src="assets/img/landing_page/rsz_admin.jpg" alt="Administrative Services" class="card-image" />
+            <div class="card-overlay">
+              <span class="card-icon">📋</span>
+            </div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Administrative Services</h3>
+            <p class="card-description">
+              One-stop solution for all administrative needs. We streamline document handling and processing with professional expertise for seamless relocation support.
+            </p>
+            <a href="services.html" class="btn-view-details">View Details</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <!-- Portfolio Grid-->
-  <section class="bg-light" id="portfolio">
+
+  <!-- Testimonials Carousel -->
+  <section class="testimonials-section page-section bg-light" id="testimonials">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <!-- Portfolio item 1-->
-          <div class="portfolio-item">
-            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <h4>SEVERAL YEARS OF EXPERIENCE IN PROVIDING LEGAL AID</h4>
+      <div class="text-center mb-4">
+        <h2 class="section-heading">What Our Clients Say</h2>
+      </div>
+
+      <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000" data-bs-pause="hover" role="region" aria-roledescription="carousel" aria-label="Testimonials" aria-live="polite">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="testimonial-card mx-auto">
+              <div class="testimonial-quote">“Autour du Monde made our relocation straightforward — professional, responsive and reassuring every step of the way.”</div>
+              <div class="testimonial-meta">
+                <img src="assets/img/landing_page/testi.jpg" alt="Client portrait" class="testimonial-avatar" />
+                <div class="meta-text">
+                  <div class="meta-name">Aissatou Diallo <span class="client-flag" aria-hidden="true">🇫🇷</span></div>
+                  <div class="star-rating" aria-hidden="true">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
                 </div>
               </div>
-              <img class="img-fluid" src="assets/img/landing_page/rsz_legal1.jpg" alt="..." />
-            </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">LEGAL ASSISTANCE</div>
-              <div class="portfolio-caption-subheading text-muted">
-                Empowering migration dreams with top-tier legal assistance in
-                moving to France, while prioritizing safety and excellence for
-                our clients.
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="testimonial-card mx-auto">
+              <div class="testimonial-quote">“Excellent legal support — the team guided us through complex paperwork and helped us feel confident throughout the process.”</div>
+              <div class="testimonial-meta">
+                <img src="assets/img/landing_page/testi3.jpg" alt="Client portrait" class="testimonial-avatar" />
+                <div class="meta-text">
+                  <div class="meta-name">John Mensah <span class="client-flag" aria-hidden="true">🇫🇷</span></div>
+                  <div class="star-rating" aria-hidden="true">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="testimonial-card mx-auto">
+              <div class="testimonial-quote">“Fast, clear and compassionate service — they handled everything and we felt supported from day one.”</div>
+              <div class="testimonial-meta">
+                <img src="assets/img/landing_page/testi2.jpg" alt="Client portrait" class="testimonial-avatar" />
+                <div class="meta-text">
+                  <div class="meta-name">Marie K. <span class="client-flag" aria-hidden="true">🇫🇷</span></div>
+                  <div class="star-rating" aria-hidden="true">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <!-- Portfolio item 2-->
-          <div class="portfolio-item">
-            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <h4>
-                    PROVIDING CONSULAR SERVICES TAILORED TO YOUR NEEDS
-                  </h4>
-                </div>
-              </div>
-              <img class="img-fluid" src="assets/img/landing_page/rsz_consult.jpg" alt="..." />
-            </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">
-                TRAVEL CONSULTANCY
-              </div>
-              <div class="portfolio-caption-subheading text-muted">
-                Guiding your immigration journey with expert consultancy,
-                providing tailored advice to empower your move to France with
-                confidence.
-              </div>
-            </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev" aria-label="Previous testimonial">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next" aria-label="Next testimonial">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Infographic -->
+  <section class="process-section page-section" id="process">
+    <div class="container">
+      <div class="section-header text-center mb-4">
+        <h2 class="section-title">Our Process</h2>
+        <p class="section-subtitle">A clear 5-step approach to guide your relocation</p>
+      </div>
+
+      <div class="process-grid animate-on-scroll" aria-hidden="false">
+        <div class="process-step" data-step="1">
+          <div class="step-circle" aria-hidden="true">1</div>
+          <div class="step-body">
+            <div class="step-icon" aria-hidden="true">🔎</div>
+            <h4 class="step-title">Assessment</h4>
+            <p class="step-text">We evaluate your eligibility and goals to create a personalised plan.</p>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-4">
-          <!-- Portfolio item 3-->
-          <div class="portfolio-item">
-            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <h4>ONE-STOP SOLUTION FOR ALL ADMINISTRATIVE NEEDS</h4>
-                </div>
-              </div>
-              <img class="img-fluid" src="assets/img/landing_page/rsz_admin.jpg" alt="..." />
-            </a>
-            <div class="portfolio-caption">
-              <div class="portfolio-caption-heading">
-                ADMINISTRATIVE SERVICES
-              </div>
-              <div class="portfolio-caption-subheading text-muted">
-                Efficient administrative services streamlined with
-                professional expertise for seamless document handling.
-              </div>
-            </div>
+
+        <div class="process-step" data-step="2">
+          <div class="step-circle" aria-hidden="true">2</div>
+          <div class="step-body">
+            <div class="step-icon" aria-hidden="true">🗂️</div>
+            <h4 class="step-title">Documentation</h4>
+            <p class="step-text">We prepare and review all necessary documents accurately.</p>
+          </div>
+        </div>
+
+        <div class="process-step" data-step="3">
+          <div class="step-circle" aria-hidden="true">3</div>
+          <div class="step-body">
+            <div class="step-icon" aria-hidden="true">📝</div>
+            <h4 class="step-title">Application</h4>
+            <p class="step-text">We submit your application and track its progress closely.</p>
+          </div>
+        </div>
+
+        <div class="process-step" data-step="4">
+          <div class="step-circle" aria-hidden="true">4</div>
+          <div class="step-body">
+            <div class="step-icon" aria-hidden="true">✅</div>
+            <h4 class="step-title">Approval</h4>
+            <p class="step-text">We support you through the approval steps and clear any queries.</p>
+          </div>
+        </div>
+
+        <div class="process-step" data-step="5">
+          <div class="step-circle" aria-hidden="true">5</div>
+          <div class="step-body">
+            <div class="step-icon" aria-hidden="true">🏡</div>
+            <h4 class="step-title">Settlement</h4>
+            <p class="step-text">We assist with settlement, local registration and integration support.</p>
           </div>
         </div>
       </div>
@@ -259,79 +362,44 @@
       </div>
     </section> -->
 
-  <div class="row why-choose-us" id="why-choose-us">
-    <div class="why-choose-us-title">
-      <h1>WHY CHOOSE AUTOUR DU MONDE SERVICES</h1>
-    </div>
-    <div class="col-md-4">
-      <div class="col-icon">
-        <i class="fa fa-users" aria-hidden="true"></i>
-      </div>
-      <div class="col-content">
-        <h4 class="my-3">STAFF YOU'LL LIKE</h4>
-        <p class="text-muted">
-          Well trained, trustworthy, friendly and helpful staff
-        </p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="col-icon">
-        <i class="fa fa-credit-card" aria-hidden="true"></i>
-      </div>
-      <div class="col-content">
-        <h4 class="my-3">VALUE FOR MONEY</h4>
-        <p class="text-muted">A professional service at competitive rates</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="col-icon">
-        <i class="fa fa-calendar" aria-hidden="true"></i>
-      </div>
-      <div class="col-content">
-        <h4 class="my-3">SERVICE RELIABILITY</h4>
-        <p class="text-muted">
-          First-rate service reliability through the managed absence
-        </p>
+  <section class="features-section page-section" id="why-choose-us" aria-labelledby="why-choose-title">
+    <div class="container">
+      <header class="section-header text-center mb-4">
+        <h2 id="why-choose-title" class="section-title">Why Choose Us</h2>
+        <p class="section-subtitle">Reliable, transparent and human-centred immigration services</p>
+      </header>
+
+      <div class="features-grid" role="list">
+        <article class="feature-card" role="listitem" aria-label="Reliability">
+          <div class="feature-icon" aria-hidden="true">🔒</div>
+          <h3 class="feature-title">Reliability</h3>
+          <p class="feature-text">Consistent, dependable support throughout your immigration process.</p>
+        </article>
+
+        <article class="feature-card" role="listitem" aria-label="Transparent Pricing">
+          <div class="feature-icon" aria-hidden="true">💶</div>
+          <h3 class="feature-title">Transparent Pricing</h3>
+          <p class="feature-text">Clear, upfront pricing with no hidden fees.</p>
+        </article>
+
+        <article class="feature-card" role="listitem" aria-label="Flexibility">
+          <div class="feature-icon" aria-hidden="true">⚖️</div>
+          <h3 class="feature-title">Flexibility</h3>
+          <p class="feature-text">Services tailored to your schedule and individual needs.</p>
+        </article>
+
+        <article class="feature-card" role="listitem" aria-label="24/7 Support">
+          <div class="feature-icon" aria-hidden="true">📞</div>
+          <h3 class="feature-title">24/7 Support</h3>
+          <p class="feature-text">Round-the-clock assistance for urgent queries and peace of mind.</p>
+        </article>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="col-icon">
-        <i class="fa fa-cogs" aria-hidden="true"></i>
-      </div>
-      <div class="col-content">
-        <h4 class="my-3">QUALITY CONTROL</h4>
-        <p class="text-muted">
-          Regular quality controls for consistent high standards
-        </p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="col-icon">
-        <i class="fa fa-certificate" aria-hidden="true"></i>
-      </div>
-      <div class="col-content">
-        <h4 class="my-3">FLEXIBILITY</h4>
-        <p class="text-muted">
-          A flexible service tailored to your particular needs
-        </p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="col-icon">
-        <i class="fa fa-clock" aria-hidden="true"></i>
-      </div>
-      <div class="col-content">
-        <h4 class="my-3">SERVICE 24/7</h4>
-        <p class="text-muted">
-          A dedicated team member to manage your account 24/7
-        </p>
-      </div>
-    </div>
-  </div>
+  </section>
   <!-- Job-->
 
   <!-- Team-->
-  <section class="page-section bg-light" id="team">
+  <!-- <section class="page-section bg-light" id="team">
     <div class="container">
       <div class="text-center">
         <h2 class="section-heading text-uppercase">
@@ -346,7 +414,19 @@
       </div>
       <a class="btn btn-primary job btn-xl text-uppercase" href="#contact">Contact Us Now</a>
     </div>
+  </section> -->
+
+  <!-- Final CTA Banner -->
+  <section class="cta-banner" aria-labelledby="cta-headline">
+    <div class="container">
+      <div class="cta-inner text-center">
+        <h2 id="cta-headline" class="cta-heading">Ready to Begin Your Journey?</h2>
+        <p class="cta-subtext">Let’s start your relocation plan today.</p>
+        <a class="btn btn-gold btn-xl cta-button" href="#contact" role="button" aria-label="Book your consultation now">Book Your Consultation Now</a>
+      </div>
+    </div>
   </section>
+
   <!-- Contact-->
   <section class="page-section" id="contact">
     <div class="container">

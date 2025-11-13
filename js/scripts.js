@@ -67,3 +67,28 @@ navLinks.forEach(link => {
         window.location.href = linkUrl;
     });
 });
+
+
+// IntersectionObserver for animate-on-scroll elements (fade/slide in)
+document.addEventListener('DOMContentLoaded', function () {
+	const observer = new IntersectionObserver((entries, obs) => {
+		entries.forEach(entry => {
+			if (entry.isIntersecting) {
+				// add in-view to the observed element
+				entry.target.classList.add('in-view');
+
+				// if it's the process grid, reveal children with a small stagger
+				if (entry.target.classList.contains('process-grid')) {
+					const steps = entry.target.querySelectorAll('.process-step');
+					steps.forEach((s, i) => {
+						setTimeout(() => s.classList.add('in-view'), i * 90);
+					});
+				}
+
+				obs.unobserve(entry.target);
+			}
+		});
+	}, { threshold: 0.18 });
+
+	document.querySelectorAll('.animate-on-scroll, .process-grid').forEach(el => observer.observe(el));
+});
